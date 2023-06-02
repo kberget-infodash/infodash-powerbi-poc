@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "infodash-powerbi": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/powerBi/PowerBiWebPart.js",
+          "manifest": "./src/webparts/powerBi/PowerBiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PowerBiWebPartStrings": "lib/webparts/powerBi/loc/{locale}.js"
+  }
+}

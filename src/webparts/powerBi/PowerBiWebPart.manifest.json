@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "025178b8-61b5-4b76-9eda-fae8e10b773d",
+  "alias": "InfodashPowerBiWebPart",
+  "componentType": "WebPart",
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "SharePointFullPage",
+    "TeamsPersonalApp",
+    "TeamsTab"
+  ],
+  "supportsFullBleed": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "Infodash Power BI"
+      },
+      "description": {
+        "default": "The Infodash Power BI webpart is a proof-of-concept web part aimed to demonstate the ability to render a report and pass in environmental and user variables."
+      },
+      "officeFabricIconFontName": "BookmarkReport",
+      "properties": {
+        "height": "800",
+        "reportOptions": {
+          "hideFilterPane": true,
+          "hideSlicer": false,
+          "hidePageNavigation": false,
+          "zoomLevel": 1
+        }
+      }
+    }
+  ]
+}
