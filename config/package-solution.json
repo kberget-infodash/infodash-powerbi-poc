@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "infodash-powerbi-webpart",
+    "id": "fd6f9abe-baf8-4933-ae06-0c2a66738e72",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Infodash",
+      "websiteUrl": "https://getinfodash.com",
+      "privacyUrl": "https://getinfodash.com/privacy-policy",
+      "termsOfUseUrl": "https://getinfodash.com/terms-conditions/",
+      "mpnId": "2675352"
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/infodash-powerbi-webpart.sppkg"
+  }
+}

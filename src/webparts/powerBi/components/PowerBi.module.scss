@@ -1,0 +1,15 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.powerBi{
+  width: 100%;
+  .report {
+    min-height: 800px;
+  }
+
+  .configure {
+    padding: 30px 50px;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: #e3e3e3;
+  }
+}
